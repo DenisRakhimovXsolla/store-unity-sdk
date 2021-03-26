@@ -24,8 +24,7 @@ deploy doc:
   stage: deploy
   extends:      .deploy doc
   only:
-    - /^v.*/
-    - /^doc-.*$/
+    - /^v-.*/
   dependencies:
     - build doc
   environment:
@@ -37,8 +36,7 @@ deploy doc:
 current doc:
   extends:      .current doc
   only:
-    - /^v.*/
-    - /^doc-.*$/
+    - /^v-.*/
   dependencies:
     - deploy doc
   environment:
@@ -51,6 +49,5 @@ stop doc:
     name: doc/$CI_COMMIT_REF_SLUG
     action: stop
   only:
-    - /^v.*/
-    - /^doc-.*$/
+    - /^v-.*/
   dependencies: []
