@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Xsolla.Core
 {
+	[CreateAssetMenu]
 	public class XsollaSettings : ScriptableObject
 	{
 		private const string SETTINGS_ASSET_NAME = "XsollaSettings";
