@@ -1,0 +1,19 @@
+{
+  "name": "com.xsolla.store",
+  "version": "2.0.0",
+  "displayName": "Xsolla SDK",
+  "description": "SDK for Xsolla Solutions",
+  "unity": "2019.4",
+  "unityRelease": "27f1",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "2.0.0"
+  },
+  "keywords": [
+    "Xsolla"
+  ],
+  "author": {
+    "name": "xsolla",
+    "email": "support@xsolla.com",
+    "url": "https://github.com/alt3d/unity-openai-toolkit"
+  }
+}
