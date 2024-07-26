@@ -1,18 +1,8 @@
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
 
 > [!TIP]
-> Optional information to help a user be more successful.
+> Integrate [Xsolla Mobile SDK](https://developers.xsolla.com/sdk/mobile/) to enable In-App Payments across mobile platforms within and outside of stores in a platform-compliant way, powered by Pay Station with over 700 payment methods.
 
-> [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
-
-> [!WARNING]  
-> Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
+# Enterprise-level Xsolla SDK for Unity
 
 The SDK makes it easier to integrate Xsolla products into your Unity project by providing out-of-the-box data structures and methods for working with Xsolla API.
 
@@ -118,6 +108,8 @@ You can use either Mono or IL2CPP compilers to create game builds for Android.
 
 ## Install SDK
 
+### Import package from an archive
+
 1. Download the SDK from [CDN](https://cdn.xsolla.net/sdk-unity-assets/xsolla-commerce-sdk.zip) or [GitHub](https://github.com/xsolla/store-unity-sdk/releases).
 
 **NOTE:**
@@ -126,6 +118,19 @@ Only the latest version of the SDK is available through CDN. If you need a diffe
 2. Unzip the package.
 3. In the Unity editor, go to **Assets > Import Package > Custom Package** in the main menu and select the SDK.
 4. Follow the [integration guide](https://developers.xsolla.com/sdk/unity/integrate-complete-solution/get-started/) to configure project on Xsolla side.
+
+### Import package from git repository
+
+**NOTE:**
+
+For the package manager to work correctly, [git client](https://git-scm.com/) should be installed. For detailed information about the prerequisites for using the package manager, refer to the [Unity documentation](https://docs.unity3d.com/Manual/upm-ui-giturl.html).
+
+1. Open your Unity project or create a new one.
+2. In the main menu, click **Window > Package Manager**.
+3. Add a package as a dependence:
+ a. Click the **+** icon and select  Add package from git URL.
+ b. Specify the git repository URL: `https://github.com/xsolla/store-unity-sdk.git?path=Assets/Xsolla`.
+ c. Click **Add** and wait for the import to finish.
 
 ## Usage
 
