@@ -1,3 +1,18 @@
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
 
 The SDK makes it easier to integrate Xsolla products into your Unity project by providing out-of-the-box data structures and methods for working with Xsolla API.
 
